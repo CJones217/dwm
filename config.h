@@ -66,6 +66,7 @@ static Key keys[] = {
         { MODKEY,                       XK_grave,  spawn,          SHCMD("emoji")},
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{MODKEY|ShiftMask,              XK_b,      spawn,          SHCMD("firefox")},
+	{MODKEY|ShiftMask,              XK_s,      spawn,          SHCMD("screenshot")},
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
 	{ MODKEY,                       XK_i,      incnmaster,     {.i = +1 } },
